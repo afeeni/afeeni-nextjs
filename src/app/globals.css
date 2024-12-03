@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #eaeaea;
   --foreground: #171717;
 }
 
@@ -31,9 +31,16 @@ body {
 
 @layer components{
 .btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  @apply text-white font-bold bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 
+  focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg 
+  dark:shadow-cyan-800/80 rounded-lg text-sm px-10 py-2.5 text-center me-2 mb-2 w-52
+  inline-flex justify-center;
 }
-.btn-blue:hover {
-  @apply bg-blue-700;
 }
+
+@layer base {
+  .no-link-styles {
+    max-width: initial;
+    height: initial;
+  }
 }
