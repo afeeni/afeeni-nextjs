@@ -12,6 +12,9 @@ const Footer = () => {
         <li>
             <a href="https://github.com/afeeni/afeeni-nextjs" target="_blank" className="hover:underline me-4 md:me-6">GitHub</a>
         </li>
+        <li>
+            <a href="/" target="_blank" className="hover:underline me-4 md:me-6">Send a message!</a>
+        </li>
     </ul>
 </footer>
 

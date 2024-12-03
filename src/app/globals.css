@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --background: #eaeaea;
-  --foreground: #171717;
+   --background: #eaeaea;
+  --foreground: #171717; 
+/* --background: backgroundImage: `url('/public/images/w97.jpg')`,
+width: '10000px',
+height: '10000px',
+opacity: '50%' */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,5 +47,11 @@ body {
   .no-link-styles {
     max-width: initial;
     height: initial;
+  }
+}
+
+@layer base{
+  .bg-img {
+    @apply 
   }
 }
