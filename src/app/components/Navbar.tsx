@@ -6,10 +6,10 @@ const Navbar = () => {
     return ( 
 
         <div className="grid grid-cols-4 gap-3 py-8 mx-24 justify-center">
-            <Link href="/" className='flex justify-center'> <button className="btn-blue"> <HomeIcon className="size-5 mx-2"/>Home</button></Link>
-            <Link href="/about" className='flex justify-center'> <button className="btn-blue"> <CodeBracketIcon className="size-5 mx-2"/> Projects</button></Link>
-            <Link href="/about" className='flex justify-center'> <button className="btn-blue"> <SparklesIcon className="size-5 mx-2"/>Skills</button></Link>
-            <Link href="/about" className='flex justify-center'> <button className="btn-blue"> <BriefcaseIcon className="size-5 mx-2"/>Experience</button></Link>
+            <Link href="/" className='flex justify-center'> <button className="btn-blue"> <HomeIcon className="size-5 mr-2"/>Home</button></Link>
+            <Link href="/projects" className='flex justify-center'> <button className="btn-blue"> <CodeBracketIcon className="size-5 mr-2"/> Projects</button></Link>
+            <Link href="/skills" className='flex justify-center'> <button className="btn-blue"> <SparklesIcon className="size-5 mr-2"/>Skills</button></Link>
+            <Link href="/experience" className='flex justify-center'> <button className="btn-blue"> <BriefcaseIcon className="size-5 mr-2"/>Experience</button></Link>
             
         </div>
     );

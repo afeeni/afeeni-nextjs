@@ -2,14 +2,17 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
-const about = () => {
+const Experience = () => {
     return (  
-        <div>
+<div>
         <Navbar></Navbar>
-        <div>About Page!!!</div>
+
+<div>Experience Page</div>
+  
         <Footer></Footer>
-        </div>
+      </div>
+        
     );
 }
  
-export default about;
+export default Experience;

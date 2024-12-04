@@ -8,9 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'w97': "url('/image/w97.jpg')",
-      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
