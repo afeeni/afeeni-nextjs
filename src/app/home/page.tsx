@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import ProductCard from "../components/ProductCard";
-
+import Box from "../components/cube";
 
 export default function Home() {
 
@@ -16,7 +16,7 @@ export default function Home() {
                    
                   
                   </h5>
-
+<Box></Box>
   <ProductCard></ProductCard>
   <Footer></Footer>
 
